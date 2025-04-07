@@ -29,9 +29,9 @@ def sort_chars(char_count):
 
     return chars_list
 
-def print_report(word_count, sort_character):
+def print_report(path, word_count, sort_character):
     print("============ BOOKBOT ============")
-    print("Analyzing book found at books/frankenstein.txt...")
+    print("Analyzing book found at {path}...")
     print("----------- Word Count ----------")
     print(f"Found {word_count} total words")
     print("--------- Character Count -------")

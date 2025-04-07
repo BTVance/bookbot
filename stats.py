@@ -31,7 +31,7 @@ def sort_chars(char_count):
 
 def print_report(path, word_count, sort_character):
     print("============ BOOKBOT ============")
-    print("Analyzing book found at {path}...")
+    print(f"Analyzing book found at {path}...")
     print("----------- Word Count ----------")
     print(f"Found {word_count} total words")
     print("--------- Character Count -------")
